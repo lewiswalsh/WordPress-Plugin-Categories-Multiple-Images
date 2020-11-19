@@ -295,7 +295,7 @@ HTML;
             $image = get_option( "cmi_taxonomy_image{$i}_{$term_id}" );
             $html .='
             	<tr class="form-field">
-            		<th scope="row" valign="top"><label for="">' . __('Image') . '#' . $i . '</label></th>
+            		<th scope="row" valign="top"><label for="">' . __('Artist Image') . '</label></th>
             		<td><img style="width:100%;" class="taxonomy-image" src="' . $image . '"/>
                     <br/><input type="text" name="cmi_taxonomy_image' . $i . '" value="'. $image.'" /><br />
             		<button class="cmi-button-upload button">' . __('Upload/Add image') . '</button>
